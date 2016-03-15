@@ -1,0 +1,43 @@
+/* Constants */
+.body {
+  /* ALWAYS push body down by 85px */
+  padding-top: 85px;
+}
+.noselect {
+  -webkit-user-select: none;
+  /* Chrome/Safari/Opera */
+  -khtml-user-select: none;
+  /* Konqueror */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE/Edge */
+  user-select: none;
+  /* non-prefixed version, currently
+                                    not supported by any browser */
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.hidden {
+  display: none;
+}
+.inline {
+  display: inline-block;
+}
+.absolute {
+  position: absolute;
+}
+.fixed {
+  position: fixed;
+}
+.noscroll {
+  overflow: hidden;
+}
+hr {
+  -webkit-transition: box-shadow linear 0.5s;
+  transition: box-shadow linear 0.5s;
+}

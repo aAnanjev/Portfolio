@@ -1,0 +1,90 @@
+﻿<div class="nav-container noselect">
+    <div class="navbar">
+        <div id="logo" class="left">
+            <h1>Aleksandr Ananjev</h1>
+        </div>
+        <div class="menu-button right">            
+            <i class="fa fa-bars fa-2x hamburger"></i>
+            <i class="fa fa-times fa-2x hidden"></i>
+        </div>
+    </div>
+</div>
+
+<div class="menu hidden fixed noselect">
+    <ul class="main">
+        <li class="inline">
+            <hr />
+            
+            First
+                <ul class="child">
+                    <li>
+                        <a href="#">Placeholder 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Placeholder 2</a>
+                    </li>
+                    <li>
+                        <a href="#">Placeholder 3</a>
+                    </li>
+                    <li>
+                        <a href="#">Placeholder 4</a>
+                    </li>
+                </ul>
+        </li>
+        <li class="inline">
+            <hr />
+            
+            Second
+
+                <ul class="child">
+                    <li><a href="#">Placeholder 1</a>
+                    </li>
+                    <li><a href="#">Placeholder 2</a>
+                    </li>
+                    <li><a href="#">Placeholder 3</a>
+                    </li>
+                    <li><a href="#">Placeholder 4</a>
+                    </li>
+                </ul>
+        </li>
+        <li class="inline">
+            <hr />
+            
+            Third
+
+                <ul class="child">
+                    <li><a href="#">Placeholder 1</a>
+                    </li>
+                    <li><a href="#">Placeholder 2</a>
+                    </li>
+                    <li><a href="#">Placeholder 3</a>
+                    </li>
+                    <li><a href="#">Placeholder 4</a>
+                    </li>
+                </ul>
+        </li>
+
+        <hr style="margin-top: 160px"/>
+
+        <ul id="social-media" class="inline">
+            <li><a href="https://www.facebook.com/a.ananjev"><img src="~/Content/Images/fb.ico" height="50px" width="50px" alt="Facebook"/></a></li>
+            <li><a href="https://uk.linkedin.com/in/aleksandr-ananjev-3b603993"><img src="../../Content/Images/linkedin.png" height="50px" width="50px" alt="LinkedIn"/></a></li>
+            <li><a href="https://twitter.com/a_ananjev"><img src="../../Content/Images/twitter.png" height="50px" width="50px" alt="Twitter"/></a></li>
+            <li><a href=""><img src="../../Content/Images/google.png" height="50px" width="50px" alt="Google+"/></a></li>
+        </ul>
+    </ul>
+</div>
+
+<script>
+    $(".menu-button").click(function () {
+        //$(".nav-container").toggleClass("absolute");
+
+        $(".menu").toggle('slow', function () {
+            $(this).toggleClass("hidden");
+            $("html").toggleClass("noscroll");
+        });
+
+        $(".menu-button").toggleClass("active");
+        $(".menu-button i").toggleClass("hidden");
+    });
+</script>
