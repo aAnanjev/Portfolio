@@ -93,7 +93,7 @@
     <Content Include="Content\Images\fb.ico" />
     <Content Include="Content\Images\google.png" />
     <Content Include="Content\Images\linkedin.png" />
-    <Content Include="Content\Images\Twitter-icon.png" />
+    <Content Include="Content\Images\twitter.png" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />
     <Content Include="Content\navbar.css">
