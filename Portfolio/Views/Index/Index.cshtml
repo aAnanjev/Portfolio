@@ -5,27 +5,3 @@
 }
 
 <h2>Index</h2>
-<p></p>
-
-<script>
-    window.onload = function () {
-        //var s = "Testing / BOLD after a / slash ... Does this / work? / Oh yes it / DOES";
-
-        //$("p").html(test(s));
-    }
-    function test(sentence) {
-        
-        var n = sentence.split(" ");
-        var i; /* Index */
-
-        n[0] = "<strong>" + n[0] + "</strong>";
-
-        for (i = 0; i < n.length; i++) {
-            if (n[i] == "/") {
-                n[i + 1] = "<strong>" + n[i + 1] + "</strong>"
-            }
-        }
-
-        return n.join(" ");
-    }
-</script>
