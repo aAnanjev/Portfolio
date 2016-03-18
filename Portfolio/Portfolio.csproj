@@ -81,36 +81,57 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\command.css">
+    <Content Include="Content\Style\bootstrap.css" />
+    <Content Include="Content\Style\bootstrap.min.css" />
+    <Content Include="Content\Style\command.css">
       <DependentUpon>command.less</DependentUpon>
     </Content>
-    <Content Include="Content\command.min.css">
+    <Content Include="Content\Style\command.min.css">
       <DependentUpon>command.less</DependentUpon>
     </Content>
-    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\Style\font-awesome.min.css" />
     <Content Include="Content\Images\fb.ico" />
     <Content Include="Content\Images\google.png" />
     <Content Include="Content\Images\linkedin.png" />
     <Content Include="Content\Images\twitter.png" />
-    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\Style\partials\1366.css">
+      <DependentUpon>1366.less</DependentUpon>
+    </Content>
+    <Content Include="Content\Style\partials\1366.min.css">
+      <DependentUpon>1366.less</DependentUpon>
+    </Content>
+    <Content Include="Content\Style\partials\1680.css">
+      <DependentUpon>1680.less</DependentUpon>
+    </Content>
+    <Content Include="Content\Style\partials\1680.min.css">
+      <DependentUpon>1680.less</DependentUpon>
+    </Content>
+    <Content Include="Content\Style\partials\variables.css">
+      <DependentUpon>variables.less</DependentUpon>
+    </Content>
+    <Content Include="Content\Style\partials\variables.min.css">
+      <DependentUpon>variables.less</DependentUpon>
+    </Content>
     <Content Include="Scripts\jquery-2.1.4.min.js" />
-    <Content Include="Content\navbar.css">
+    <Content Include="Content\Style\navbar.css">
       <DependentUpon>navbar.less</DependentUpon>
     </Content>
-    <Content Include="Content\navbar.min.css">
+    <Content Include="Content\Style\navbar.min.css">
       <DependentUpon>navbar.less</DependentUpon>
     </Content>
-    <Content Include="Content\reset.min.css" />
+    <Content Include="Content\Style\reset.min.css" />
     <Content Include="Global.asax" />
-    <Content Include="Content\navbar.less" />
-    <Content Include="Content\command.less" />
-    <Content Include="fonts\fontawesome-webfont.eot" />
-    <Content Include="fonts\fontawesome-webfont.ttf" />
-    <Content Include="fonts\fontawesome-webfont.woff" />
-    <Content Include="fonts\fontawesome-webfont.woff2" />
-    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="Content\Style\navbar.less" />
+    <Content Include="Content\Style\command.less" />
+    <Content Include="Content\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\fonts\FontAwesome.otf" />
+    <Content Include="Content\Style\partials\variables.less" />
+    <Content Include="Content\Style\partials\1680.less" />
+    <Content Include="Content\Style\partials\1366.less" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
