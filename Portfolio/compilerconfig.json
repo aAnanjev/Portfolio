@@ -1,0 +1,18 @@
+﻿[
+  {
+    "outputFile": "Content/Style/partials/1366.css",
+    "inputFile": "Content/Style/partials/1366.less"
+  },
+  {
+    "outputFile": "Content/Style/partials/1680.css",
+    "inputFile": "Content/Style/partials/1680.less"
+  },
+  {
+    "outputFile": "Content/Style/partials/variables.css",
+    "inputFile": "Content/Style/partials/variables.less"
+  },
+  {
+    "outputFile": "Content/Style/navbar.css",
+    "inputFile": "Content/Style/navbar.less"
+  }
+]

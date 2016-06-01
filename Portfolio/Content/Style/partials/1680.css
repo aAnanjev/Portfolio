@@ -1,4 +1,4 @@
-@media screen and (max-width: 1680px) {
+﻿@media screen and (min-width: 1670px) {
   .nav-container {
     width: 100%;
     background-color: #1a1a1a;
@@ -29,7 +29,7 @@
     margin-right: 10px;
   }
   .nav-container .menu-button:hover {
-    color: #ffffff;
+    color: #fff;
   }
   .active {
     opacity: 0.6;
@@ -44,6 +44,10 @@
     z-index: 1;
     opacity: 0.95;
     color: #f2f2f2;
+    overflow: hidden;
+  }
+  .menu hr {
+    display: block;
   }
   .menu .main {
     font-size: 40px;
@@ -64,6 +68,7 @@
   }
   .menu .main .child {
     font-size: 20px;
+    display: block;
   }
   .menu .main .child li {
     margin: 20px 0 0 5px;
@@ -77,9 +82,13 @@
   .menu .main a:hover {
     color: #a1a1f6;
   }
+  .menu .main #social-media {
+    margin-top: 0;
+  }
   .menu .main #social-media li {
     display: inline-block;
     width: 50px;
+    margin: 0;
   }
   .menu .main #social-media li img {
     -webkit-transition: all linear 0.4s;
