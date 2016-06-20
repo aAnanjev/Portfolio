@@ -1,6 +1,6 @@
 ﻿@import url(variables.less);
 
-@media screen and (max-width: 1680px) {
+@media screen and (min-width: 1670px) {
     .nav-container {
         width: 100%;
         background-color: @menu-background;
@@ -54,6 +54,11 @@
         z-index: 1;
         opacity: 0.95;
         color: @menu-font;
+        overflow: hidden;
+
+        hr{
+            display:block;
+        }
 
         .main {
             font-size: 40px;
@@ -78,6 +83,7 @@
 
             .child {
                 font-size: 20px;
+                display: block;
 
                 li {
                     margin: 20px 0 0 5px;
@@ -95,10 +101,13 @@
                 }
             }
 
-            #social-media {
+            #social-media {                
+                margin-top: 0;
+
                 li {
                     display: inline-block;
                     width: 50px;
+                    margin: 0;
 
                     img {
                         -webkit-transition: all linear 0.4s;

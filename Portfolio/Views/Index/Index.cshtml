@@ -5,3 +5,36 @@
 }
 
 <h2>Index</h2>
+
+<script>
+    $(document)
+        .ready(function() {
+            if ($(window).width() <= 1023) {
+                $('.inline').removeClass('inline');
+                $('.child').hide();
+            }
+        });
+
+    $(window)
+        .resize(function() {
+            if ($(window).width() <= 1023) {
+                $('.inline').removeClass('inline');
+                $('.child').hide();
+            }
+            if ($(window).width() > 1024) {
+                $('.main li').addClass('inline');
+                $('.child').show();
+                $('.main li').siblings().find('p').removeClass('mobile-selected');
+            }
+        });
+
+    $('.main li')
+        .click(function(){
+            if ($(window).width() <= 1023) {
+                $(this).find('.child').slideToggle(500);
+                $(this).siblings().find('.child').slideUp(500);
+                $(this).find('p').toggleClass('mobile-selected');
+                $(this).siblings().find('p').removeClass('mobile-selected');
+            }
+        });
+</script>
