@@ -96,6 +96,12 @@
     <Content Include="Content\Images\linkedin.png" />
     <Content Include="Content\Images\twitter.png" />
     <Content Include="Content\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\Style\partials\1024.css">
+      <DependentUpon>1024.less</DependentUpon>
+    </Content>
+    <Content Include="Content\Style\partials\1024.min.css">
+      <DependentUpon>1024.css</DependentUpon>
+    </Content>
     <Content Include="Content\Style\partials\1366.css">
       <DependentUpon>1366.less</DependentUpon>
     </Content>
@@ -137,6 +143,7 @@
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
+    <Content Include="Content\Style\partials\1024.less" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
